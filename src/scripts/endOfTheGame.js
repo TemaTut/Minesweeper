@@ -10,6 +10,7 @@ const loseAudio = new Audio("../sounds/lose.mp3")
 export function loseGame() {
   openAllCells()
   setTimeout(function () {
+    loseAudio.play()
     var result = confirm("Game over. Try again");
 
     if (result === true) {
