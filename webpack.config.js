@@ -23,6 +23,19 @@ module.exports = {
           "sass-loader",
         ],
       },
+      // {
+      //   test: /\.(wav|mp3|ogg)$/i,
+      //   use: [
+      //     {
+      //       // loader: 'file-loader',
+      //       options: {
+      //         filename: 'win.[ext]',
+      //         outputPath: 'assets/audio/', // Укажите путь для сохранения аудиофайлов
+      //         publicPath: 'assets/audio/', // Укажите публичный путь для доступа к аудиофайлам
+      //       },
+      //     },
+      //   ],
+      // },
     ],
   },
   plugins: [

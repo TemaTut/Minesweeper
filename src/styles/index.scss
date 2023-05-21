@@ -1,5 +1,5 @@
 $boxSize: 4vw;
-$boxSizeMobile: 6vw;
+$boxSizeMobile: 4vw;
 
 
 
@@ -107,7 +107,7 @@ $boxSizeMobile: 6vw;
   flex-wrap: wrap;
 
   @media (max-width: 768px) {
-    // max-width: calc(#{$boxSizeMobile}*10);
+    max-width: calc(#{$boxSizeMobile}*10);
     max-height: calc(#{$boxSizeMobile}*10);
   }
 
@@ -125,8 +125,8 @@ $boxSizeMobile: 6vw;
     cursor: pointer;
 
     @media (max-width: 768px) {
-      width: boxSizeMobile;
-      height: boxSizeMobile;
+      width: $boxSizeMobile;
+      height: $boxSizeMobile;
       box-sizing: border-box;
       font-size: 1em;
     }
